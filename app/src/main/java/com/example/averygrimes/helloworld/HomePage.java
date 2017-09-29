@@ -9,6 +9,7 @@ import android.util.Log;
 public class HomePage extends AppCompatActivity {
 
     private static final String TAG = "averymessage";
+    TestNewFile file1 = new TestNewFile();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,5 +69,15 @@ public class HomePage extends AppCompatActivity {
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         Log.i(TAG, "onRestoreInstanceState");
+    }
+
+    private void outputMessages(){
+        int count = 0;
+        for (int i = 0; i <= 10; i++)
+        {
+            count++;
+        }
+
+        file1.setName("Buddy");
     }
 }
