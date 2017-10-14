@@ -80,4 +80,8 @@ public class HomePage extends AppCompatActivity {
 
         file1.setName("Buddy");
     }
+
+    public void maskMessage(){
+        String hello;
+    }
 }
