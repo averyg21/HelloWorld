@@ -12,4 +12,6 @@ public class AddClass {
     {
         this.num = number;
     }
+
+    //changing the test
 }
